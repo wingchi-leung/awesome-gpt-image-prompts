@@ -7,84 +7,84 @@ Inspired by [Awesome AI Image Prompts](https://github.com/devanshug2307/Awesome-
 
 ## Gallery / 案例
 
-### 01. Product photo / 产品摄影
+### 01. Paper collage portrait / 纸艺拼贴肖像
 ![01](images/01-existing.webp)
 **Prompt / 提示词**
 ```text
-Keep the supplied perfume bottle unchanged; premium three-quarter studio photo on warm stone, one leaf, soft shadow, no invented text or logo.
-保持参考香水瓶不变；暖色石台上的高级三分之四棚拍，一片叶子，柔和阴影，不添加文字或 logo。
+Editorial paper collage portrait of a confident woman in a cobalt jacket, torn paper shapes, red and yellow circles, tactile paper edges, no text or logo.
+编辑纸艺拼贴肖像：自信女性穿钴蓝夹克，搭配撕纸形状、红色和黄色圆形，保留纸张边缘质感，不要文字或 logo。
 ```
 
-### 02. Pixel portrait / 像素肖像
+### 02. Coastal railway illustration / 海滨铁路插画
 ![02](images/02-existing.webp)
 **Prompt / 提示词**
 ```text
-Transform the supplied portrait into crisp 16-color pixel art; preserve identity, pose, and silhouette; no text.
-将参考肖像转为清晰的 16 色像素画；保留身份、姿势和轮廓；不要文字。
+Painterly travel illustration of a seaside railway village at sunset, warm lanterns, train tracks beside the water, flowering foreground, no text.
+绘画感旅行插画：夕阳下的海滨铁路小镇，暖色灯笼，铁轨沿水边延伸，前景有花朵，不要文字。
 ```
 
-### 03. Oil painting / 油画
+### 03. Amber perfume bottle / 琥珀香水瓶
 ![03](images/03-existing.webp)
 **Prompt / 提示词**
 ```text
-Reinterpret the supplied photo as tactile oil paint; preserve identity, framing, pose, and major colors; visible brush texture, no signature.
-将参考照片转为有触感的油画；保留身份、构图、姿势和主要颜色；可见笔触，不要签名。
+Premium product photograph of an amber glass perfume bottle on a travertine pedestal with flowing beige fabric, warm sunlight, soft shadow, no readable label or logo.
+高级产品摄影：琥珀玻璃香水瓶置于洞石台座和飘动的米色布料上，温暖阳光与柔和阴影，不要可读标签或 logo。
 ```
 
-### 04. Anime portrait / 动漫肖像
+### 04. Rainy Kyoto street / 雨中京都街道
 ![04](images/04-existing.webp)
 **Prompt / 提示词**
 ```text
-Original anime-inspired portrait from the supplied image; keep identity anchors, hairstyle, pose, and clothing colors; clean linework, soft cel shading, no franchise character.
-根据参考图生成原创动漫肖像；保留身份特征、发型、姿势和服装颜色；线稿干净、柔和赛璐璐上色，不要已有 IP 角色。
+Atmospheric rainy Kyoto-inspired street with a cyclist, flower shop, wet stone pavement, traditional wood facades, soft overcast light, no signage text.
+有氛围感的雨中京都风街道，一名骑车人、花店、湿润石板路和传统木质建筑，柔和阴天光，不要招牌文字。
 ```
 
-### 05. Photo colorizer / 老照片上色
+### 05. Floating lantern village / 漂浮灯笼村
 ![05](images/05-existing.webp)
 **Prompt / 提示词**
 ```text
-Colorize the supplied monochrome photo with historically plausible muted colors; preserve every face, object, edge, and expression; add nothing.
-用符合历史的低饱和颜色为参考黑白照片上色；保留所有面孔、物体、边缘和表情；不增加内容。
+Whimsical floating village on rocky islands beneath a crescent moon, glowing lanterns, tiny bridges and waterfalls, detailed fantasy illustration, no text.
+奇幻漂浮村落建在月牙下的岩石岛屿上，发光灯笼、微型桥梁和瀑布，细节丰富的幻想插画，不要文字。
 ```
 
-### 06. Pet portrait / 宠物肖像
+### 06. Monochrome fashion portrait / 黑白时尚肖像
 ![06](images/06-existing.webp)
 **Prompt / 提示词**
 ```text
-Create a polished pet portrait from the supplied image; preserve species, markings, eyes, and expression; soft window light, tactile fur, warm simple background.
-根据参考图生成精致宠物肖像；保留物种、毛纹、眼睛和表情；柔和窗光、真实毛发、简洁暖背景。
+High-contrast black-and-white fashion portrait of a woman in a flowing tailored suit, dramatic spotlight through mist, strong silhouette, editorial mood, no text.
+高反差黑白时尚肖像：女性穿飘逸剪裁西装，雾气中的戏剧性聚光，轮廓鲜明，编辑感氛围，不要文字。
 ```
 
-### 07. Photo restoration / 老照片修复
+### 07. Coffee brewing infographic / 咖啡冲煮信息图
 ![07](images/07-existing.webp)
 **Prompt / 提示词**
 ```text
-Repair scratches, dust, tears, and fading in the supplied old photo; preserve faces, clothing, composition, and period character; do not invent people.
-修复参考老照片的划痕、灰尘、撕裂和褪色；保留面孔、服装、构图和年代感；不要增加人物。
+Top-down educational coffee-brewing infographic showing beans, grinder, dripper, bloom, pour, and extraction stages connected by simple arrows; warm paper background, no extra text.
+俯拍咖啡冲煮教育信息图，展示咖啡豆、研磨器、滤杯、闷蒸、注水和萃取步骤，用简单箭头连接；暖纸张背景，不添加额外文字。
 ```
 
-### 08. Image-to-image / 图生图
+### 08. Surreal arch landscape / 超现实拱门景观
 ![08](images/08-existing.webp)
 **Prompt / 提示词**
 ```text
-Use the supplied image as identity and composition reference; change only [style, lighting, material, or environment]; preserve pose, count, proportions, and camera angle.
-使用参考图作为身份和构图参考；只改变[风格、光线、材质或环境]；保留姿势、数量、比例和相机角度。
+Minimal surreal architecture: a monumental rectangular arch rising from a reflective desert pool at sunset, lavender sky, precise geometry, quiet negative space, no text.
+极简超现实建筑：日落时分，巨大的矩形拱门从沙漠倒影水池中升起，淡紫天空，几何精准，安静留白，不要文字。
 ```
 
-### 09. Hair style / 发型替换
+### 09. Fantasy dragon battle / 奇幻巨龙战斗
 ![09](images/09-existing.webp)
 **Prompt / 提示词**
 ```text
-Change only the supplied portrait’s hairstyle to [hairstyle]; keep face, expression, skin, clothing, pose, camera, and lighting unchanged.
-只将参考肖像的发型改为[发型]；保持脸部、表情、皮肤、服装、姿势、相机和光线不变。
+Cinematic fantasy scene of a lone armored ranger facing a colossal stone dragon in an ancient cavern, moonlight, wet rock reflections, no franchise designs or text.
+电影感奇幻场景：孤独的铠甲游侠在古老洞穴中面对巨大石龙，月光、湿润岩石反射，不要已有 IP 设计或文字。
 ```
 
-### 10. Background replacement / 背景替换
+### 10. Astronaut cat toy / 宇航员猫咪玩具
 ![10](images/10-existing.webp)
 **Prompt / 提示词**
 ```text
-Replace only the supplied image background with [environment]; match perspective, edges, light, and contact shadows; keep subject identity unchanged.
-只将参考图背景替换为[环境]；匹配透视、边缘、光线和接触阴影；主体身份不变。
+Retro collectible toy package featuring a cute cat astronaut in a clear blister box, orange and mint packaging, tiny space accessories, 1960s graphic design, no readable brand text.
+复古收藏玩具包装：可爱的猫咪宇航员置于透明吸塑盒中，橙色与薄荷色包装，配有微型太空配件，1960 年代平面设计，不要可读品牌文字。
 ```
 
 ### 11. Ceramic artist / 陶艺家
