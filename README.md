@@ -1,342 +1,413 @@
 # Awesome OpenAI GPT Image 2 Prompts
 
-一份可直接复制、修改和分享的 GPT Image 2 图像提示词画廊。每个案例都包含：用途分类、双语标题、可复制 prompt、构图与约束说明，以及对应结果图。
+50 copy-ready prompts with images for GPT Image 2.  
+50 个可直接复制的 GPT Image 2 提示词与配图。
 
-> Inspired by [Awesome AI Image Prompts](https://github.com/devanshug2307/Awesome-AI-Image-Prompts) and the Reddit collection [50 ChatGPT Image Prompts](https://www.reddit.com/r/promptingmagic/comments/1wgq94i/50_chatgpt_image_prompts_that_turn_meh_into_wait/).
+Inspired by [Awesome AI Image Prompts](https://github.com/devanshug2307/Awesome-AI-Image-Prompts) and [50 ChatGPT Image Prompts](https://www.reddit.com/r/promptingmagic/comments/1wgq94i/50_chatgpt_image_prompts_that_turn_meh_into_wait/).
 
-## 使用方式 / How to use
+## Gallery / 案例
 
-1. 复制任意案例的英文 prompt。
-2. 替换方括号中的变量，或直接使用现成主题。
-3. 将参考图作为 image input 附加，并保留 prompt 中的约束项。
-4. 第一次生成后只改一个变量，例如光线、构图或配色。
-
-提示词采用“场景 → 主体 → 构图 → 光线 → 材质 → 约束”的结构，适合 GPT Image 2，也方便迁移到其他图像模型。图片均为本仓库展示素材；`01-existing.webp` 至 `10-existing.webp` 来自本地项目已有 showcase，`11-generated.png` 至 `50-generated.png` 为本次生成。
-
-## 目录 / Index
-
-| # | 类别 / Category | 案例 / Case | 图片 |
-|---:|---|---|---|
-| 01 | Product / 产品 | Sculptural perfume bottle | [view](images/01-existing.webp) |
-| 02 | Portrait / 肖像 | Pixel portrait | [view](images/02-existing.webp) |
-| 03 | Style transfer / 风格迁移 | Oil painting portrait | [view](images/03-existing.webp) |
-| 04 | Anime / 动漫 | Anime portrait | [view](images/04-existing.webp) |
-| 05 | Color / 上色 | Photo colorizer | [view](images/05-existing.webp) |
-| 06 | Pet / 宠物 | Pet portrait | [view](images/06-existing.webp) |
-| 07 | Restoration / 修复 | Old photo restoration | [view](images/07-existing.webp) |
-| 08 | Image-to-image / 图生图 | Image transformation | [view](images/08-existing.webp) |
-| 09 | Hair / 发型 | Hair style generator | [view](images/09-existing.webp) |
-| 10 | Background / 背景 | Background replacement | [view](images/10-existing.webp) |
-| 11 | Portrait / 肖像 | Ceramic artist in studio | [view](images/11-generated.png) |
-| 12 | Illustration / 插画 | Lighthouse paper cut | [view](images/12-generated.png) |
-| 13 | 3D / 三维 | Rooftop farm isometric world | [view](images/13-generated.png) |
-| 14 | Historical / 历史 | 1920s Shanghai street | [view](images/14-generated.png) |
-| 15 | Portrait / 肖像 | Fisherman black and white | [view](images/15-generated.png) |
-| 16 | Product / 产品 | Cobalt skincare still life | [view](images/16-generated.png) |
-| 17 | Food / 美食 | Editorial ramen bowl | [view](images/17-generated.png) |
-| 18 | Flat lay / 平铺 | Designer desk flat lay | [view](images/18-generated.png) |
-| 19 | Watercolor / 水彩 | Red kite in apple tree | [view](images/19-generated.png) |
-| 20 | Clay 3D / 黏土 | Moon gardener | [view](images/20-generated.png) |
-| 21 | Cinematic / 电影感 | Rainy coastal city | [view](images/21-generated.png) |
-| 22 | Miniature / 微缩 | Pocket watch garden | [view](images/22-generated.png) |
-| 23 | UI / 界面 | Habit tracker app | [view](images/23-generated.png) |
-| 24 | Marketing / 营销 | Water bottle website hero | [view](images/24-generated.png) |
-| 25 | Brand / 品牌 | Botanical tea mark | [view](images/25-generated.png) |
-| 26 | Science / 科学 | Volcano cutaway | [view](images/26-generated.png) |
-| 27 | Fashion / 时尚 | Rainy plaza editorial | [view](images/27-generated.png) |
-| 28 | Pixel art / 像素 | Night train station | [view](images/28-generated.png) |
-| 29 | Surreal / 超现实 | Library becoming birds | [view](images/29-generated.png) |
-| 30 | Landscape / 风景 | Highland lake | [view](images/30-generated.png) |
-| 31 | Aerial / 航拍 | River meets desert | [view](images/31-generated.png) |
-| 32 | Fantasy / 奇幻 | Misty cedar forest | [view](images/32-generated.png) |
-| 33 | Underwater / 水下 | Reef city | [view](images/33-generated.png) |
-| 34 | Sci-fi / 科幻 | Orbital habitat | [view](images/34-generated.png) |
-| 35 | Architecture / 建筑 | Uphill canal building | [view](images/35-generated.png) |
-| 36 | Collage / 拼贴 | Urban gardening collage | [view](images/36-generated.png) |
-| 37 | Children’s book / 童书 | Fox repairs a bridge | [view](images/37-generated.png) |
-| 38 | Packaging / 包装 | Citrus soda hero | [view](images/38-generated.png) |
-| 39 | Macro / 微距 | Lavender cream texture | [view](images/39-generated.png) |
-| 40 | Hospitality / 酒店 | Kyoto reading corner | [view](images/40-generated.png) |
-| 41 | Quote card / 引语卡 | Handmade paper background | [view](images/41-generated.png) |
-| 42 | App icons / 图标 | Four-icon family | [view](images/42-generated.png) |
-| 43 | Fantasy portrait / 奇幻肖像 | Desert archivist | [view](images/43-generated.png) |
-| 44 | Flat lay / 平铺 | Camping checklist | [view](images/44-generated.png) |
-| 45 | Product render / 产品渲染 | Silver electric kettle | [view](images/45-generated.png) |
-| 46 | Paper collage / 纸艺 | Rooftop gardening | [view](images/46-generated.png) |
-| 47 | Lifestyle / 生活方式 | Siblings on balcony | [view](images/47-generated.png) |
-| 48 | Sci-fi / 科幻 | Solar research rover | [view](images/48-generated.png) |
-| 49 | Concept / 概念 | Extra visual study A | [view](images/49-generated.png) |
-| 50 | Concept / 概念 | Extra visual study B | [view](images/50-generated.png) |
-
-## 50 copy-ready prompts
-
-以下 prompt 使用英文以便直接复制到 GPT Image 2；中文说明帮助快速理解与改写。
-
-### 01–10 · Existing local cases / 本地已有案例
-
-这些案例保留为本地项目已有图片展示。将对应图片作为 input image，并按下面的具体 prompt 使用：
-
+### 01. Product photo / 产品摄影
+![01](images/01-existing.webp)
+**Prompt / 提示词**
 ```text
-01 Product photo: Keep the supplied perfume bottle shape, cap, material, label placement, and proportions unchanged. Re-light it as a premium three-quarter studio photograph on a warm stone pedestal with one natural leaf, soft contact shadow, no invented text, no logo changes, and no duplicate products.
-02 Pixel portrait: Transform the supplied portrait into crisp intentional pixel art while preserving the subject’s recognizable face, pose, and clothing silhouette. Use a limited 16-color palette, readable lighting, no anti-aliasing, no text, and no copied game character style.
-03 Oil painting: Reinterpret the supplied photo as a tactile oil painting while preserving identity, pose, framing, and major color relationships. Use visible brush texture, layered pigment, believable edges, and a restrained gallery palette; avoid plastic digital smoothing, text, and signature.
-04 Anime portrait: Transform the supplied portrait into an original anime-inspired illustration while keeping identity anchors, pose, hairstyle, and clothing colors. Use clean expressive linework, soft cel shading, and a simple background; avoid franchise resemblance, text, logos, and altered anatomy.
-05 Photo colorizer: Colorize the supplied monochrome photo while preserving every person, object, expression, and edge. Use historically plausible muted colors, natural skin tones, subtle film texture, and no added objects, text, logos, or modern details.
-06 Pet portrait: Create a polished portrait from the supplied pet image while preserving species, markings, eye color, and recognizable expression. Use soft window light, tactile fur, a simple warm background, and realistic anatomy; avoid extra limbs, collars with text, and watermark.
-07 Old photo restoration: Restore the supplied old photograph by repairing scratches, dust, tears, and fading while preserving faces, composition, clothing, and period character. Improve clarity gently; do not invent people, modernize the scene, add text, or alter identity.
-08 Image-to-image: Use the supplied image as the composition and identity reference, then change only the requested visual treatment: [style, lighting, material, or environment]. Preserve pose, subject count, proportions, and camera angle; avoid drift, duplicates, text, and logos.
-09 Hair style: Use the supplied portrait as an identity-preserving reference. Change only the hairstyle to [hairstyle], keeping face, expression, skin texture, clothing, pose, camera angle, and lighting consistent. Avoid face reshaping, extra hair artifacts, text, and logos.
-10 Background replacement: Use the supplied image as the edit target. Replace only the background with [new environment], matching perspective, edge detail, lighting direction, and contact shadows. Keep the subject, identity, pose, clothing, and color unchanged; avoid halos, extra objects, text, and logos.
+Keep the supplied perfume bottle unchanged; premium three-quarter studio photo on warm stone, one leaf, soft shadow, no invented text or logo.
+保持参考香水瓶不变；暖色石台上的高级三分之四棚拍，一片叶子，柔和阴影，不添加文字或 logo。
 ```
 
-### 11 · Ceramic artist / 陶艺家肖像
-
+### 02. Pixel portrait / 像素肖像
+![02](images/02-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a candid editorial portrait of a ceramic artist in a sunlit studio, hands dusty with clay, looking away while shaping a bowl. Use a lived-in workshop with shelves of imperfect pottery, a chest-up 50mm composition, the subject on the right with negative space on the left, soft north-window light, and a warm terracotta, cream, and olive palette. Keep hands realistic and avoid text, logos, watermarks, or stock-photo posing.
+Transform the supplied portrait into crisp 16-color pixel art; preserve identity, pose, and silhouette; no text.
+将参考肖像转为清晰的 16 色像素画；保留身份、姿势和轮廓；不要文字。
 ```
 
-### 12 · Lighthouse paper cut / 灯塔纸艺
-
+### 03. Oil painting / 油画
+![03](images/03-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a layered paper-cut illustration of a small lighthouse guiding paper boats through a storm. Build the image from stacked paper sea, clouds, and distant cliffs with clear foreground, middle ground, and background. Use soft cast shadows, tactile cut edges, and a hopeful after-rain mood in navy, coral, cream, and muted yellow. Avoid text, logos, flat vector appearance, and inconsistent shadow directions.
+Reinterpret the supplied photo as tactile oil paint; preserve identity, framing, pose, and major colors; visible brush texture, no signature.
+将参考照片转为有触感的油画；保留身份、构图、姿势和主要颜色；可见笔触，不要签名。
 ```
 
-### 13 · Rooftop farm / 屋顶农场微缩世界
-
+### 04. Anime portrait / 动漫肖像
+![04](images/04-existing.webp)
+**Prompt / 提示词**
 ```text
-Create an isometric miniature world showing a sustainable rooftop farm on a city block, with a greenhouse, rain collection, bicycles, and tiny gardeners. Use a clean floating base, consistent 30-degree isometric view, soft daylight, crisp small-scale materials, and a sage, brick, sky-blue, and warm-white palette. Keep every element readable and connected by believable paths; avoid labels, text, clutter, and inconsistent perspective.
+Original anime-inspired portrait from the supplied image; keep identity anchors, hairstyle, pose, and clothing colors; clean linework, soft cel shading, no franchise character.
+根据参考图生成原创动漫肖像；保留身份特征、发型、姿势和服装颜色；线稿干净、柔和赛璐璐上色，不要已有 IP 角色。
 ```
 
-### 14 · 1920s Shanghai / 1920年代上海街景
-
+### 05. Photo colorizer / 老照片上色
+![05](images/05-existing.webp)
+**Prompt / 提示词**
 ```text
-Create an atmospheric 1920s Shanghai street at dusk with a tram, rain-slick stones, and pedestrians in period clothing. Use plausible historic architecture and shop awnings without readable signage, an eye-level cinematic wide shot, blue-hour light, amber practicals, and restrained film grain. Keep the period details accurate; avoid modern cars, logos, fake text, and oversaturated neon.
+Colorize the supplied monochrome photo with historically plausible muted colors; preserve every face, object, edge, and expression; add nothing.
+用符合历史的低饱和颜色为参考黑白照片上色；保留所有面孔、物体、边缘和表情；不增加内容。
 ```
 
-### 15 · Fisherman portrait / 渔民黑白肖像
-
+### 06. Pet portrait / 宠物肖像
+![06](images/06-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a high-contrast black-and-white portrait of an elderly fisherman with weathered skin and a wool cap against a nearly black background. Frame tightly with negative space on the left, use one hard side light, crisp highlights, deep readable shadows, and subtle film grain. Emphasize character and texture rather than perfection. Avoid beauty smoothing, color tinting, text, and borders.
+Create a polished pet portrait from the supplied image; preserve species, markings, eyes, and expression; soft window light, tactile fur, warm simple background.
+根据参考图生成精致宠物肖像；保留物种、毛纹、眼睛和表情；柔和窗光、真实毛发、简洁暖背景。
 ```
 
-### 16 · Cobalt skincare / 钴蓝护肤品
-
+### 07. Photo restoration / 老照片修复
+![07](images/07-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a luxury still life of a cobalt glass skincare bottle on travertine with one folded linen cloth. Place the bottle off-center with deliberate negative space, use sculpted directional sunlight and a long elegant shadow, and keep reflections physically plausible. Use a restrained cobalt, sand, and ivory palette. Avoid gold overload, fake labels, readable text, logos, and clutter.
+Repair scratches, dust, tears, and fading in the supplied old photo; preserve faces, clothing, composition, and period character; do not invent people.
+修复参考老照片的划痕、灰尘、撕裂和褪色；保留面孔、服装、构图和年代感；不要增加人物。
 ```
 
-### 17 · Ramen editorial / 拉面美食摄影
-
+### 08. Image-to-image / 图生图
+![08](images/08-existing.webp)
+**Prompt / 提示词**
 ```text
-Create an appetizing editorial photograph of a ramen bowl with a soft egg, scallions, mushrooms, and natural steam on a dark walnut table in a neighborhood restaurant. Use soft side window light, a 45-degree close perspective, realistic portion size, tactile ingredients, and amber, charcoal, cream, and green colors. Avoid plastic-looking food, floating garnish, impossible shine, text, and hands.
+Use the supplied image as identity and composition reference; change only [style, lighting, material, or environment]; preserve pose, count, proportions, and camera angle.
+使用参考图作为身份和构图参考；只改变[风格、光线、材质或环境]；保留姿势、数量、比例和相机角度。
 ```
 
-### 18 · Designer desk / 设计师桌面平铺
-
+### 09. Hair style / 发型替换
+![09](images/09-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a carefully arranged top-down flat lay of a designer’s desk with a sketchbook, color swatches, ruler, laptop edge, and coffee. Use a pale oak desk, soft morning light, consistent scale, short realistic shadows, and one small imperfect break in the grid. Keep the scene calm and tactile. Avoid readable screen text, logos, duplicate objects, and decorative filler.
+Change only the supplied portrait’s hairstyle to [hairstyle]; keep face, expression, skin, clothing, pose, camera, and lighting unchanged.
+只将参考肖像的发型改为[发型]；保持脸部、表情、皮肤、服装、姿势、相机和光线不变。
 ```
 
-### 19 · Red kite watercolor / 红风筝水彩
-
+### 10. Background replacement / 背景替换
+![10](images/10-existing.webp)
+**Prompt / 提示词**
 ```text
-Create a soft watercolor illustration of a red kite caught in an apple tree while a child reaches from a meadow path. Use transparent pigment washes, visible paper grain, gentle edge blooms, a breezy spring countryside, and a tender warm palette. Keep the child and tree crisp while the hills dissolve softly. Avoid heavy black outlines, digital airbrush smoothness, text, and signatures.
+Replace only the supplied image background with [environment]; match perspective, edges, light, and contact shadows; keep subject identity unchanged.
+只将参考图背景替换为[环境]；匹配透视、边缘、光线和接触阴影；主体身份不变。
 ```
 
-### 20 · Moon gardener / 月面黏土场景
-
+### 11. Ceramic artist / 陶艺家
+![11](images/11-generated.png)
+**Prompt / 提示词**
 ```text
-Create a charming tactile clay-style 3D scene of a tiny astronaut planting a sprout on a moon-like surface. Build every object from matte sculpted forms with fingerprints and subtle dents, use a dusty lavender stage, soft overhead lighting, gentle contact shadows, and a clear centered silhouette. Avoid glossy plastic, giant cartoon eyes, floating objects, text, and logos.
+Candid 50mm editorial portrait of a ceramic artist shaping a bowl in a sunlit lived-in studio; subject right, soft window light, terracotta palette, realistic hands, no text.
+阳光工作室里陶艺家塑造陶碗的 50mm 纪实肖像；人物在右侧，柔和窗光，陶土色调，手部真实，不要文字。
 ```
 
-### 21 · Rainy coastal city / 雨夜海滨城市
-
+### 12. Lighthouse paper cut / 灯塔纸艺
+![12](images/12-generated.png)
+**Prompt / 提示词**
 ```text
-Create a cinematic rainy-night street in a fictional coastal city with one cyclist passing a warmly lit bakery. Show wet pavement, old brick facades, and rain only where lamps catch it. Use an eye-level 35mm composition with teal shadows and amber practicals. Keep signs abstract and reflections plausible; avoid readable fake signage, endless neon, duplicated umbrellas, and text.
+Layered paper-cut lighthouse guiding paper boats through a storm; stacked sea, clouds, cliffs, soft cast shadows, navy/coral/cream palette, no text.
+分层纸艺灯塔在暴风雨中引导纸船；叠层海面、云和悬崖，柔和投影，海军蓝/珊瑚/奶油色，不要文字。
 ```
 
-### 22 · Pocket watch garden / 怀表里的花园
-
+### 13. Rooftop farm / 屋顶农场
+![13](images/13-generated.png)
+**Prompt / 提示词**
 ```text
-Create a whimsical miniature world built inside an open vintage pocket watch: a moss garden with a tiny bridge, pond, and one gardener. Keep the brass watch recognizable, use macro photography, shallow depth of field, warm directional light, and convincing scale cues. Integrate the mini world with the watch’s real materials. Avoid pasted-on miniatures, toy plastic texture, text, logos, and overcrowding.
+Isometric miniature sustainable rooftop farm with greenhouse, rain collection, bicycles, and tiny gardeners; consistent 30-degree view, believable paths, no labels.
+可持续屋顶农场等距微缩世界，包含温室、雨水收集、自行车和微型园丁；统一 30 度视角，路径合理，不要标签。
 ```
 
-### 23 · Habit tracker UI / 习惯追踪界面
-
+### 14. 1920s Shanghai / 1920 年代上海
+![14](images/14-generated.png)
+**Prompt / 提示词**
 ```text
-Create a polished mobile habit-tracker app interface shown on a phone mockup. Include a calm dashboard, progress rings, and coherent placeholder labels on a soft blue-gray studio surface. Use a three-quarter phone view, diffuse studio light, clean shadows, and premium product-design fidelity. Avoid brand logos, gibberish text, broken alignment, and watermark.
+Atmospheric 1920s Shanghai street at dusk with tram, rain-slick stones, period clothing, blue hour, amber lights, film grain, no modern cars or readable signs.
+黄昏 1920 年代上海街道，有电车、雨后石板路和年代服装；蓝调时刻、琥珀灯光、胶片颗粒，不要现代汽车或可读招牌。
 ```
 
-### 24 · Water bottle hero / 水瓶网站主视觉
-
+### 15. Fisherman / 渔民肖像
+![15](images/15-generated.png)
+**Prompt / 提示词**
 ```text
-Create a wide website hero visual for a reusable water bottle brand. Place the bottle on the right beside a mountain stream and smooth stones, with an alpine morning landscape and generous text-safe negative space on the left. Use crisp sunrise backlight, fresh trustworthy color, and natural reflections. Do not render a headline, logo, fake label text, or busy background.
+High-contrast black-and-white portrait of an elderly fisherman with weathered skin and wool cap; hard side light, readable shadows, subtle grain, tight crop, no text.
+高反差黑白渔民肖像，老人皮肤饱经风霜、戴羊毛帽；硬侧光、细节阴影、轻微颗粒、紧凑裁切，不要文字。
 ```
 
-### 25 · Botanical tea mark / 植物茶品牌标记
-
+### 16. Luxury skincare / 高级护肤品
+![16](images/16-generated.png)
+**Prompt / 提示词**
 ```text
-Explore an elegant abstract mark for a fictional botanical tea studio: a centered leaf-and-orbit symbol on warm off-white paper. Use forest green, ink, and cream, generous negative space, and clean vector-friendly geometry. Show a refined presentation-board view. Render no letters, words, readable text, logo lockups, or watermark.
+Luxury cobalt glass skincare bottle on travertine with folded linen; off-center, sculpted sunlight, long shadow, plausible reflections, no label or logo.
+钴蓝玻璃护肤瓶置于洞石与折叠亚麻上；偏心构图、雕塑感阳光、长阴影、真实反射，不要标签或 logo。
 ```
 
-### 26 · Volcano diagram / 火山科学剖面
-
+### 17. Ramen / 拉面美食
+![17](images/17-generated.png)
+**Prompt / 提示词**
 ```text
-Create an accurate educational cross-section illustration of a volcano showing a magma chamber, vent, crater, ash plume, and lava flow. Use a clean pale background, clear color zones, textbook cutaway composition, and empty callout areas for later labels. Prioritize scientific plausibility and accessibility. Do not render fake labels, gibberish, decorative text, or a watermark.
+Editorial ramen with soft egg, scallions, mushrooms, and natural steam on dark walnut; 45-degree close view, soft side light, realistic portions, no floating garnish.
+拉面编辑摄影，配溏心蛋、葱、蘑菇和自然蒸汽，置于深色胡桃木上；45 度近景、柔和侧光、份量真实，不要漂浮配料。
 ```
 
-### 27 · Rainy fashion editorial / 雨天时尚街拍
-
+### 18. Designer desk / 设计师桌面
+![18](images/18-generated.png)
+**Prompt / 提示词**
 ```text
-Create a street-style fashion editorial of a model in a sculptural charcoal coat walking across a rainy concrete plaza. Use a slightly low 35mm angle, confident walking pose, controlled motion blur, overcast light, and a graphite-and-rust palette. Keep fabric movement and shoes realistic, with clean negative space. Avoid brand marks, distorted shoes, duplicated pedestrians, and text.
+Top-down designer desk flat lay with sketchbook, swatches, ruler, laptop edge, and coffee on pale oak; soft morning light, imperfect grid, no readable screen text.
+浅色橡木桌上的设计师桌面俯拍：速写本、色卡、尺子、电脑边缘和咖啡；柔和晨光，网格略不完美，不要可读屏幕文字。
 ```
 
-### 28 · Pixel train station / 像素火车站
-
+### 19. Red kite watercolor / 红风筝水彩
+![19](images/19-generated.png)
+**Prompt / 提示词**
 ```text
-Create a detailed pixel-art scene of a quiet night train station where a cat waits beside a glowing vending machine. Compose readable foreground, middle ground, and background with rain and signal lights, using a limited 16-color palette and crisp intentional pixels. Avoid anti-aliased edges, smooth gradients, modern UI overlays, copied game characters, and text.
+Soft watercolor of a red kite caught in an apple tree while a child reaches from a meadow; transparent washes, paper grain, warm spring palette, no signature.
+柔和水彩：红风筝挂在苹果树上，孩子从草地伸手去取；透明晕染、纸张纹理、温暖春日配色，不要签名。
 ```
 
-### 29 · Library birds / 图书变飞鸟
-
+### 20. Moon gardener / 月面园丁
+![20](images/20-generated.png)
+**Prompt / 提示词**
 ```text
-Create a surreal conceptual image expressing information overload as a library whose books gently turn into migrating birds. Use a believable stone-and-wood reading room, centered vanishing point, soft skylight, restrained blue and amber palette, and one clear impossible transformation. Avoid random dream objects, melting clocks, crowded symbolism, logos, and text.
+Tactile clay 3D scene of a tiny astronaut planting a sprout on a dusty lavender moon surface; fingerprints, matte clay, soft light, no glossy plastic or text.
+有触感的黏土 3D 场景：微型宇航员在灰紫色月面种植幼苗；指纹、哑光黏土、柔和光线，不要塑料光泽或文字。
 ```
 
-### 30 · Highland lake / 高地湖泊
-
+### 21. Rainy coastal city / 雨夜海滨城市
+![21](images/21-generated.png)
+**Prompt / 提示词**
 ```text
-Create a cinematic golden-hour landscape of a highland lake with one red canoe pulled onto shore. Build depth with reeds in the foreground, layered mountains in the distance, thin mist, and a small human-scale detail. Use long warm side light and natural weather. Avoid excessive HDR, impossible sun placement, duplicated trees, random castles, and text.
+Cinematic rainy-night coastal street; one cyclist passes a warm bakery, wet pavement, teal shadows, amber lights, eye-level 35mm, abstract signs, no fake text.
+电影感海滨城市雨夜街道；一名骑车人经过暖光面包店，湿地、青绿色阴影、琥珀灯光、平视 35mm、抽象招牌，不要伪造文字。
 ```
 
-### 31 · River and desert / 河流与沙漠航拍
-
+### 22. Pocket watch garden / 怀表花园
+![22](images/22-generated.png)
+**Prompt / 提示词**
 ```text
-Create a high-altitude aerial photograph where a braided turquoise river meets ochre desert terraces. Compose the shoreline and river as strong graphic curves, add tiny hikers only for scale, use clear midday light and geographically plausible geology. Keep water depth gradients natural. Avoid map labels, impossible symmetry, duplicated boats, and oversaturated turquoise.
+Miniature moss garden inside an open vintage pocket watch with tiny bridge, pond, and gardener; macro photo, warm light, convincing scale, integrated brass materials.
+微缩苔藓花园建在打开的老式怀表内，包含小桥、池塘和园丁；微距摄影、暖光、比例可信，与黄铜材质融合。
 ```
 
-### 32 · Cedar forest / 雪松迷雾森林
-
+### 23. Habit tracker UI / 习惯追踪界面
+![23](images/23-generated.png)
+**Prompt / 提示词**
 ```text
-Create a mysterious but safe misty dawn forest with a child in a yellow raincoat following a narrow path between ancient cedars. Include wet bark, fern floor, and one subtle golden moth. Use volumetric mist, soft shafts of light, natural scale, and a moss-green, charcoal, and muted-gold palette. Avoid glowing-everything fantasy, copied characters, text, and oversharpening.
+Polished habit-tracker mobile UI on phone mockup with calm dashboard, progress rings, coherent placeholder labels, soft blue-gray studio, no logo or gibberish.
+精致的手机习惯追踪界面，包含平静仪表盘、进度环和连贯占位标签；蓝灰棚拍背景，不要 logo 或乱码。
 ```
 
-### 33 · Reef city / 珊瑚礁水下城市
-
+### 24. Water bottle hero / 水瓶主视觉
+![24](images/24-generated.png)
+**Prompt / 提示词**
 ```text
-Create a believable underwater city built inside a reef canyon, with transit tunnels, habitats, sea turtles, drifting particles, and one diver for scale. Use a wide cinematic viewpoint, functional architecture, and realistic blue-green light falloff. Make the city feel inhabited and connected. Avoid generic glass domes everywhere, impossible sunlight, random whales, copied sci-fi designs, and text.
+Wide website hero for reusable water bottle beside alpine stream and stones; bottle right, text-safe space left, sunrise backlight, no headline or logo.
+可重复水瓶网站横幅主视觉，水瓶在右侧，旁边是高山溪流和圆石；左侧留文字区，日出逆光，不要标题或 logo。
 ```
 
-### 34 · Orbital habitat / 轨道栖居地
-
+### 25. Botanical tea mark / 植物茶标志
+![25](images/25-generated.png)
+**Prompt / 提示词**
 ```text
-Create the interior of a rotating orbital habitat with curved horizon windows, farms, water gardens, and a human-scale foreground scene. Show believable artificial gravity, layered neighborhoods, and clean daylight from engineered windows. Emphasize plausible function over shiny spectacle. Avoid floating people, endless white corridors, hologram clichés, impossible scale, logos, and text.
+Abstract leaf-and-orbit mark for a botanical tea studio on warm paper; forest green, ink, cream, generous negative space, clean geometry, no letters.
+暖白纸张上的植物茶工作室叶片与轨道抽象标志；森林绿、墨色、奶油色，大面积留白，几何简洁，不要字母。
 ```
 
-### 35 · Uphill canal building / 上坡水道建筑
-
+### 26. Volcano diagram / 火山剖面图
+![26](images/26-generated.png)
+**Prompt / 提示词**
 ```text
-Create a serene architectural visualization of an impossible building where a stone courtyard folds into a vertical garden and a shallow water canal runs uphill. Use believable limestone, glass, and water, soft overcast light, strong leading lines, and one small human figure for scale. Keep the paradox structurally coherent. Avoid tangled staircases, copied landmarks, fisheye distortion, and text.
+Accurate volcano cross-section showing magma chamber, vent, crater, ash plume, and lava flow; textbook cutaway, clear colors, empty callouts, scientifically plausible.
+准确火山剖面图，展示岩浆房、通道、火山口、火山灰柱和熔岩流；教材式剖面、色区清晰、留空标注区，科学合理。
 ```
 
-### 36 · Urban gardening collage / 城市园艺拼贴
-
+### 27. Rainy fashion / 雨天时尚
+![27](images/27-generated.png)
+**Prompt / 提示词**
 ```text
-Create a contemporary editorial collage about urban gardening combining a rooftop, hands planting seedlings, torn paper clouds, and a surprising giant tomato scale contrast. Use cut-paper photography, bold geometric shapes, torn edges, halftone texture, rust, cream, deep green, and cobalt. Keep the concept clear and leave negative space. Avoid visual clutter, copied covers, logos, and text.
+Street-style fashion editorial: model in sculptural charcoal coat on rainy concrete plaza; low 35mm angle, controlled motion blur, graphite/rust palette, realistic shoes, no brands.
+雨中混凝土广场的街头时尚编辑摄影：模特穿炭灰雕塑感大衣；低机位 35mm、动态模糊、石墨/铁锈配色，鞋子真实，不要品牌。
 ```
 
-### 37 · Fox repairs bridge / 小狐狸修桥
-
+### 28. Pixel train station / 像素火车站
+![28](images/28-generated.png)
+**Prompt / 提示词**
 ```text
-Create a warm gouache children’s-book story scene of a small fox repairing a bridge so a family of ducks can cross a stream. Show one clear action, expressive body language, three discoverable background details, and a gentle visual path across the page. Use soft pencil edges and a kind afternoon palette. Avoid copied animation styles, speech bubbles, text, and chaotic composition.
+Detailed pixel-art night train station where a cat waits beside a glowing vending machine; clear depth, limited 16-color palette, crisp pixels, no UI or text.
+细节丰富的像素夜间火车站，一只猫在发光售货机旁等待；景深清晰，限制 16 色，像素明确，不要 UI 或文字。
 ```
 
-### 38 · Citrus soda package / 柑橘汽水包装
-
+### 29. Library birds / 图书飞鸟
+![29](images/29-generated.png)
+**Prompt / 提示词**
 ```text
-Create a polished packaging hero for a fictional citrus soda: one glass bottle and one carton on a sunlit tiled table with lemons. Use a Mediterranean kitchen, pale blue wall, one front-facing package and one three-quarter package, warm directional light, and fresh color. Keep invented packaging artwork as abstract color blocks only. Avoid readable text, logos, fake award seals, and floating ingredients.
+Surreal library whose books gently become migrating birds; believable stone and wood, centered perspective, soft skylight, blue and amber palette, no random symbols.
+超现实图书馆，书本缓缓变成迁徙飞鸟；真实石材与木材、居中透视、柔和天窗光、蓝与琥珀配色，不要随机符号。
 ```
 
-### 39 · Lavender cream macro / 薰衣草奶油微距
-
+### 30. Highland lake / 高地湖泊
+![30](images/30-generated.png)
+**Prompt / 提示词**
 ```text
-Create an extreme macro photograph of lavender cream being spread with a metal spatula, showing tactile peaks and glossy highlights. Let the hero texture fill the frame with shallow depth of field and a soft lilac background. Use clean studio light and physically believable material. Avoid packaging, random bubbles, impossible reflections, text, and oversaturation.
+Golden-hour highland lake with one red canoe, foreground reeds, layered mountains, thin mist, warm side light, realistic weather, no HDR.
+黄金时刻高地湖泊，一艘红色独木舟，前景芦苇、层叠山脉和薄雾，温暖侧光，天气真实，不要过度 HDR。
 ```
 
-### 40 · Kyoto reading corner / 京都旅店阅读角
-
+### 31. River and desert / 河流沙漠航拍
+![31](images/31-generated.png)
+**Prompt / 提示词**
 ```text
-Create a welcoming boutique hotel reading corner in Kyoto-inspired modern wood architecture, with one empty chair, a tea tray, and a paper lantern. Show a human-scale room and garden through a window from a seated guest’s perspective. Use early morning light, realistic materials, straight verticals, and a quiet lived-in mood. Avoid empty showroom perfection, fake signage, impossible stairs, and text.
+Aerial photo where braided turquoise river meets ochre desert terraces; graphic curves, tiny hikers for scale, midday light, plausible geology, no map labels.
+辫状绿松石河流汇入赭色沙漠阶地的航拍；曲线构图，微小徒步者体现尺度，正午光线，地质合理，不要地图标注。
 ```
 
-### 41 · Handmade paper quote card / 手工纸引语卡
-
+### 32. Cedar forest / 雪松森林
+![32](images/32-generated.png)
+**Prompt / 提示词**
 ```text
-Design a premium quiet landscape quote-card background inspired by handmade paper, river stones, and one delicate ink brush illustration. Use a warm off-white paper texture, broad high-contrast negative space for later typography, and a refined editorial mood. Render no text, fake quotation marks, attribution, logos, or watermark.
+Misty dawn cedar forest with child in yellow raincoat on a narrow path; wet bark, ferns, one golden moth, volumetric mist, restrained magic, no text.
+黎明薄雾雪松林，穿黄色雨衣的孩子沿小路前行；湿树皮、蕨类和一只金色飞蛾，体积雾，克制魔法感，不要文字。
 ```
 
-### 42 · App icon family / 应用图标家族
-
+### 33. Reef city / 珊瑚礁城市
+![33](images/33-generated.png)
+**Prompt / 提示词**
 ```text
-Create a cohesive family of four premium app icons for weather, focus, notes, and travel, arranged in a clean presentation grid. Use soft gradient studio light, consistent geometry, evenly spaced square icons, and symbolic shapes only. Keep the family friendly and modern. Avoid letters, logos, tiny unreadable text, and inconsistent materials.
+Believable underwater city inside a reef canyon with tunnels, habitats, sea turtles, particles, and one diver; cinematic wide view, functional architecture, realistic blue-green light.
+建在珊瑚礁峡谷内的可信水下城市，有隧道、居住区、海龟、漂浮颗粒和一名潜水员；电影感广角、功能性建筑、真实蓝绿色光线。
 ```
 
-### 43 · Desert archivist / 沙漠档案员
-
+### 34. Orbital habitat / 轨道栖居地
+![34](images/34-generated.png)
+**Prompt / 提示词**
 ```text
-Create an original epic fantasy portrait of a desert archivist wearing layered linen, brass goggles, and a weathered map tube. Place the character in a wind-carved canyon at late afternoon, frame chest-up with the artifact visible, and use dramatic warm rim light with grounded material texture. Avoid franchise resemblance, ornate clutter, impossible anatomy, text, and logos.
+Rotating orbital habitat interior with curved horizon windows, farms, water gardens, and artificial gravity; engineered daylight, human-scale foreground, functional sci-fi, no hologram clichés.
+旋转轨道栖居地内部，有弧形地平线窗、农场、水景花园和人造重力；工程化日光、有人尺度前景，功能性科幻，不要全息图俗套。
 ```
 
-### 44 · Camping checklist flat lay / 露营清单平铺
-
+### 35. Dream architecture / 梦境建筑
+![35](images/35-generated.png)
+**Prompt / 提示词**
 ```text
-Create a carefully arranged top-down flat lay for a weekend camping checklist: compass, folded map, enamel mug, pine cone, rope, and field notebook on matte forest-green canvas. Place the compass as the visual center, use soft overhead light and short realistic shadows, and break the grid slightly for personality. Avoid readable map text, logos, duplicates, and clutter.
+Impossible building where stone courtyard folds into vertical garden and water runs uphill; believable limestone, glass, water, strong leading lines, one person for scale.
+超现实建筑：石庭院折叠成垂直花园，水渠向上流动；真实石灰岩、玻璃和水体，强引导线，一人体现尺度。
 ```
 
-### 45 · Silver electric kettle / 银色电水壶
-
+### 36. Urban gardening collage / 城市园艺拼贴
+![36](images/36-generated.png)
+**Prompt / 提示词**
 ```text
-Create a minimal product-launch render of a compact silver electric kettle floating slightly above a cool gray-blue gradient environment. Show a clear three-quarter view of the spout, handle, controls, and material transitions, with precise rim lighting, a subtle ground shadow, and calm advanced mood. Avoid invented brands, text, extra devices, warped controls, and impossible ports.
+Editorial collage about urban gardening with rooftop, planting hands, torn clouds, and giant tomato; cut paper, halftone texture, rust/cream/green/cobalt palette, no text.
+城市园艺编辑拼贴：屋顶、种植双手、撕纸云朵和巨大番茄；剪纸、半色调纹理，铁锈/奶油/绿色/钴蓝配色，不要文字。
 ```
 
-### 46 · Rooftop gardening collage / 屋顶园艺拼贴
-
+### 37. Fox repairs bridge / 小狐狸修桥
+![37](images/37-generated.png)
+**Prompt / 提示词**
 ```text
-Create an editorial paper collage about rooftop gardening combining hands planting seedlings, a rooftop, torn paper clouds, and a giant tomato as a surprising scale contrast. Use layered cut paper, subtle halftone texture, a disciplined asymmetrical layout, and a warm rust, cream, green, and cobalt palette. Avoid copied magazine covers, logos, fake text, and visual clutter.
+Warm gouache children’s-book scene of a fox repairing a bridge so ducks cross a stream; clear action, expressive body language, three background details, no speech bubbles.
+温暖水粉童书场景：狐狸修桥帮助鸭子过溪；动作明确、肢体有表现力、背景有三个细节，不要对话框。
 ```
 
-### 47 · Siblings on balcony / 阳台上的兄妹
-
+### 38. Citrus soda / 柑橘汽水
+![38](images/38-generated.png)
+**Prompt / 提示词**
 ```text
-Create a candid golden-hour portrait of two siblings on an apartment balcony, one laughing while the other waters a basil plant. Use a modest lived-in balcony with laundry and city rooftops, a documentary 35mm frame, natural action, and warm backlight. Keep expressions and hands realistic. Avoid stock-photo posing, beauty smoothing, text, and logos.
+Packaging hero for fictional citrus soda: bottle and carton on sunlit tile with lemons, Mediterranean kitchen, front and three-quarter packs, abstract artwork only, no readable text.
+虚构柑橘汽水包装主视觉：瓶子和纸盒置于阳光瓷砖与柠檬上，地中海厨房，一个正面一个三分之四包装，仅抽象图案，不要可读文字。
 ```
 
-### 48 · Solar research rover / 太阳能科研车
-
+### 39. Lavender cream / 薰衣草奶油
+![39](images/39-generated.png)
+**Prompt / 提示词**
 ```text
-Create a believable solar-powered research rover crossing a red salt flat beneath a pale moon. Show distant ridges, dust, reflective panels, and no alien creatures. Use a wide cinematic landscape, crisp dawn light, restrained science-fiction realism, and a functional vehicle design. Avoid text, logos, explosions, magical technology, and implausible engineering.
+Extreme macro of lavender cream spread with metal spatula; tactile peaks, glossy highlights, lilac background, shallow depth of field, clean studio light, no text.
+金属刮刀涂抹薰衣草奶油的极致微距；触感峰值、高光、淡紫背景、浅景深、干净棚拍光，不要文字。
 ```
 
-### 49 · Editorial visual study / 编辑视觉研究
-
+### 40. Kyoto reading corner / 京都阅读角
+![40](images/40-generated.png)
+**Prompt / 提示词**
 ```text
-Create a restrained editorial visual study about attention and rest: one smooth black stone on a pale linen surface beside a narrow beam of sunlight. Use a quiet top-down composition, generous negative space, subtle fabric grain, and a muted charcoal, cream, and honey palette. Make the metaphor legible without adding extra symbols. Avoid text, logos, random props, and excessive contrast.
+Boutique hotel reading corner with Kyoto-inspired wood, empty chair, tea tray, paper lantern, garden window, early morning light, straight verticals, no signage.
+京都风木质精品酒店阅读角，空椅子、茶盘、纸灯笼和花园窗景，清晨光线，垂直线笔直，不要招牌。
 ```
 
-### 50 · Material visual study / 材质视觉研究
-
+### 41. Quote card / 引语卡背景
+![41](images/41-generated.png)
+**Prompt / 提示词**
 ```text
-Create a macro material study showing a single folded sheet of translucent blue paper catching a diagonal beam of light on a matte concrete surface. Use realistic paper fibers, gentle subsurface glow, controlled shadows, and a clean square composition. The image should feel tactile and photographic. Avoid extra objects, fake typography, watermarks, impossible reflections, and visual clutter.
+Quiet quote-card background inspired by handmade paper, river stones, and one ink brush illustration; warm off-white texture, broad negative space, no rendered text.
+受手工纸、河石和一笔水墨启发的安静引语卡背景；暖白纹理，大面积留白，不要生成文字。
 ```
 
-## Attribution & license
+### 42. App icon family / 应用图标家族
+![42](images/42-generated.png)
+**Prompt / 提示词**
+```text
+Cohesive family of four premium app icons for weather, focus, notes, and travel; clean grid, consistent geometry and lighting, symbolic shapes only, no letters.
+四个高级应用图标组成统一家族：天气、专注、笔记和旅行；干净网格，几何和光线统一，仅符号形状，不要字母。
+```
 
-- Prompt structure and case writing in this repository are original adaptations for this collection.
-- Inspiration: the two links listed at the top of this README; please review their respective licenses and community terms before redistributing copied text or images.
-- Existing local showcase images are included only as project examples; check their source asset license before publishing outside your own organization.
-- Generated images in this repository are demonstration outputs. Verify model/provider terms before commercial use.
+### 43. Desert archivist / 沙漠档案员
+![43](images/43-generated.png)
+**Prompt / 提示词**
+```text
+Original fantasy portrait of desert archivist in layered linen, brass goggles, and map tube; wind-carved canyon, warm rim light, chest-up framing, no franchise resemblance.
+原创奇幻肖像：沙漠档案员穿多层亚麻，戴黄铜护目镜，携带地图筒；风蚀峡谷、暖轮廓光、胸部以上构图，不要已有 IP 相似设计。
+```
 
-## Contributing
+### 44. Camping flat lay / 露营平铺
+![44](images/44-generated.png)
+**Prompt / 提示词**
+```text
+Top-down camping checklist: compass, folded map, enamel mug, pine cone, rope, notebook on forest-green canvas; compass centered, soft light, imperfect grid, no readable map text.
+俯拍露营清单：森林绿帆布上的指南针、折叠地图、搪瓷杯、松果、绳子和笔记本；指南针居中，柔光，网格略不完美，不要可读地图文字。
+```
 
-Add a new case with: category, bilingual title, copy-ready prompt, explicit avoid list, and a local image under `images/`. Keep the prompt self-contained and avoid embedding third-party logos or copyrighted characters.
+### 45. Electric kettle / 电水壶
+![45](images/45-generated.png)
+**Prompt / 提示词**
+```text
+Minimal silver electric kettle launch render above cool gray-blue gradient; three-quarter view, visible spout and controls, rim light, subtle shadow, no brand or text.
+极简银色电水壶发布渲染，悬浮在冷灰蓝渐变上；三分之四视角展示壶嘴和控制键，轮廓光与柔和阴影，不要品牌或文字。
+```
+
+### 46. Rooftop collage / 屋顶园艺拼贴
+![46](images/46-generated.png)
+**Prompt / 提示词**
+```text
+Editorial paper collage about rooftop gardening with planting hands, rooftop, torn clouds, and giant tomato; layered cut paper, halftone texture, no fake text.
+关于屋顶园艺的编辑纸艺拼贴：种植双手、屋顶、撕纸云朵和巨大番茄；分层剪纸、半色调纹理，不要虚构文字。
+```
+
+### 47. Siblings on balcony / 阳台兄妹
+![47](images/47-generated.png)
+**Prompt / 提示词**
+```text
+Candid golden-hour portrait of siblings on an apartment balcony, one laughing while the other waters basil; laundry, rooftops, documentary 35mm, warm backlight, realistic hands.
+黄金时刻阳台兄妹纪实肖像，一人欢笑，另一人给罗勒浇水；晾晒衣物、屋顶、纪实 35mm、暖逆光，手部真实。
+```
+
+### 48. Solar rover / 太阳能探测车
+![48](images/48-generated.png)
+**Prompt / 提示词**
+```text
+Believable solar research rover crossing a red salt flat beneath a pale moon; distant ridges, dust, reflective panels, cinematic dawn, functional engineering, no explosions.
+可信太阳能科研车穿越淡月下的红色盐碱地；远山、尘土、反光面板，电影感黎明光线，工程合理，不要爆炸。
+```
+
+### 49. Attention and rest / 注意力与休息
+![49](images/49-generated.png)
+**Prompt / 提示词**
+```text
+Editorial study of attention and rest: one smooth black stone on pale linen beside a narrow sunbeam; quiet top-down composition, charcoal/cream/honey palette, no extra symbols.
+关于注意力与休息的编辑视觉：浅色亚麻上的一块光滑黑石，旁边是一束窄阳光；安静俯拍，炭黑/奶油/蜂蜜色，不要额外符号。
+```
+
+### 50. Blue paper material / 蓝色纸张材质
+![50](images/50-generated.png)
+**Prompt / 提示词**
+```text
+Macro study of folded translucent blue paper catching diagonal light on matte concrete; real fibers, gentle glow, controlled shadows, clean square composition, no typography.
+折叠半透明蓝纸在哑光混凝土上接住斜向光线的材质微距；真实纤维、柔和透光、可控阴影、干净方构图，不要文字。
+```
+
+## License / 许可
+
+Prompt text is original editorial content. Check source and model terms before redistributing or using images commercially.
 
