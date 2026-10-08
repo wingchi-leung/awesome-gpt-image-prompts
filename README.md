@@ -391,20 +391,20 @@ Believable solar research rover crossing a red salt flat beneath a pale moon; di
 可信太阳能科研车穿越淡月下的红色盐碱地；远山、尘土、反光面板，电影感黎明光线，工程合理，不要爆炸。
 ```
 
-### 49. Attention and rest / 注意力与休息
+### 49. Architect studio / 建筑师工作室
 ![49](images/49-generated.png)
 **Prompt / 提示词**
 ```text
-Editorial study of attention and rest: one smooth black stone on pale linen beside a narrow sunbeam; quiet top-down composition, charcoal/cream/honey palette, no extra symbols.
-关于注意力与休息的编辑视觉：浅色亚麻上的一块光滑黑石，旁边是一束窄阳光；安静俯拍，炭黑/奶油/蜂蜜色，不要额外符号。
+Natural-light lifestyle portrait of a young architect in a lived-in model-making studio, holding a cardboard model. Documentary 50mm perspective, pinned sketches, cutting mat, warm window light, realistic hands, no readable notes.
+自然光生活方式肖像：年轻建筑师在模型工作室里手持纸板模型。纪实 50mm 视角，墙上草图、桌上切割垫，暖窗光，手部真实，不要可读便签。
 ```
 
-### 50. Blue paper material / 蓝色纸张材质
+### 50. Sculptural perfume bottle / 雕塑感香水瓶
 ![50](images/50-generated.png)
 **Prompt / 提示词**
 ```text
-Macro study of folded translucent blue paper catching diagonal light on matte concrete; real fibers, gentle glow, controlled shadows, clean square composition, no typography.
-折叠半透明蓝纸在哑光混凝土上接住斜向光线的材质微距；真实纤维、柔和透光、可控阴影、干净方构图，不要文字。
+Premium editorial product photograph of a sculptural matte white perfume bottle on a pale stone pedestal, one green leaf, warm beige studio backdrop, soft upper-left light, no logo or readable text.
+雕塑感哑光白色香水瓶置于浅色石台上的高级产品摄影，一片绿叶，暖米色棚拍背景，左上方柔光，不要 logo 或可读文字。
 ```
 
 ## License / 许可
